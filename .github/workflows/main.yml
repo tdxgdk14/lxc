@@ -70,10 +70,10 @@ jobs:
             -Dcapabilities=true \
             -Dseccomp=true \
             -Dselinux=true \
-            -Dapparmor=true \
+            -Dapparmor=false \
             -Dopenssl=true \
             -Ddbus=false \
-            -Dandroid-log=true \
+            -Dandroid-log=false \
             -Dlandlock-monitor=false \
             -Dinstall-state-dirs=true \
             --cross-file aarch64-android-api30.txt
